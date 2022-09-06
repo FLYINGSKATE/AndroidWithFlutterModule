@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 startActivity(
                         FlutterActivity.createDefaultIntent(MainActivity.this)
                 );
